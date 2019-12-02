@@ -57,8 +57,6 @@ function CVPPPDataset:get(i)
       print('Warning: ' .. fullPath .. ' doesn\'t exists!')
     end
     msk = msk[1]
-  else
-    msk = msk[1]
   end
 
   return {
